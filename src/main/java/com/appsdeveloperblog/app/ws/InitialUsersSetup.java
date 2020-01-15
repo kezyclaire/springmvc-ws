@@ -53,7 +53,7 @@ public class InitialUsersSetup {
 		UserEntity adminUser = new UserEntity();
 		adminUser.setFirstName("Sergey");
 		adminUser.setLastName("Kargopolov");
-		adminUser.setEmail("test@test.com");
+		adminUser.setEmail("admin@test.com");
 		adminUser.setEmailVerificationStatus(true);
 		adminUser.setUserId(utils.generateUserId(30));
 		adminUser.setEncryptedPassword(bCryptPasswordEncoder.encode("12345678"));
